@@ -1,17 +1,16 @@
 {
-  "name": "12h3",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.18.1",
-    "nodemon": "^2.0.16"
-  }
+    "firebase": "^9.8.4",
+    "firebase-admin": "^11.0.0"
+  },
+  "name": "firebase",
+  "version": "1.0.0",
+  "main": "firebasee.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
