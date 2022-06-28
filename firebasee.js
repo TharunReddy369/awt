@@ -15,10 +15,10 @@ const firebaseConfig = {
     appId: "1:935791846950:web:dfac18c3e4cec04706e8e7",
     measurementId: "G-5DR01D92SF"
   };
-  
-  
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
   firebase.initializeApp(firebaseConfig)
-  dbref=firebase.database().ref("students")
+  dbref=firebase.database().ref("student")
   app.get("/stu",(req,res)=>{
       dbref.on('value',(snap)=>{
           res.send(snap.val())
